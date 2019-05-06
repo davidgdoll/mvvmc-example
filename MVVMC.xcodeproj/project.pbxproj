@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5175E79227FA1AB00106CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5175E78227FA1AB00106CC5 /* LaunchScreen.storyboard */; };
+		B588E2F9228085A000B2E085 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588E2F8228085A000B2E085 /* ProductViewController.swift */; };
 		B59297F0227D466E0038E30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59297EF227D466E0038E30E /* AppDelegate.swift */; };
 		B59297F7227D46700038E30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59297F6227D46700038E30E /* Assets.xcassets */; };
 		B5929809227D47990038E30E /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5929808227D47990038E30E /* StoreViewController.swift */; };
@@ -15,7 +16,6 @@
 		B592980E227D56830038E30E /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592980D227D56830038E30E /* RootCoordinator.swift */; };
 		B5929810227D57940038E30E /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592980F227D57940038E30E /* StoreViewModel.swift */; };
 		B5929812227D57A10038E30E /* StoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5929811227D57A10038E30E /* StoreCoordinator.swift */; };
-		B5929817227E62F90038E30E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5929816227E62F90038E30E /* ProductViewController.swift */; };
 		B5929819227E63F00038E30E /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5929818227E63F00038E30E /* ProductViewModel.swift */; };
 		B592981B227E63FE0038E30E /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592981A227E63FE0038E30E /* ProductCoordinator.swift */; };
 		B592981D227F83770038E30E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592981C227F83770038E30E /* Product.swift */; };
@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		B5175E78227FA1AB00106CC5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B588E2F8228085A000B2E085 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewController.swift; path = MVVMC/Modules/Product/View/ProductViewController.swift; sourceTree = SOURCE_ROOT; };
 		B59297EC227D466E0038E30E /* MVVMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59297EF227D466E0038E30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59297F6227D46700038E30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		B592980D227D56830038E30E /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		B592980F227D57940038E30E /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
 		B5929811227D57A10038E30E /* StoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCoordinator.swift; sourceTree = "<group>"; };
-		B5929816227E62F90038E30E /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		B5929818227E63F00038E30E /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		B592981A227E63FE0038E30E /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
 		B592981C227F83770038E30E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		B5929815227E62DD0038E30E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B5929816227E62F90038E30E /* ProductViewController.swift */,
+				B588E2F8228085A000B2E085 /* ProductViewController.swift */,
 			);
 			name = View;
 			path = "New Group1";
@@ -264,11 +264,11 @@
 				B592980E227D56830038E30E /* RootCoordinator.swift in Sources */,
 				B592981B227E63FE0038E30E /* ProductCoordinator.swift in Sources */,
 				B5929809227D47990038E30E /* StoreViewController.swift in Sources */,
-				B5929817227E62F90038E30E /* ProductViewController.swift in Sources */,
 				B5929810227D57940038E30E /* StoreViewModel.swift in Sources */,
 				B5929812227D57A10038E30E /* StoreCoordinator.swift in Sources */,
 				B592981D227F83770038E30E /* Product.swift in Sources */,
 				B5929819227E63F00038E30E /* ProductViewModel.swift in Sources */,
+				B588E2F9228085A000B2E085 /* ProductViewController.swift in Sources */,
 				B59297F0227D466E0038E30E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3JZ64GS9D;
+				DEVELOPMENT_TEAM = S97ZM4K3C8;
 				INFOPLIST_FILE = "$(SRCROOT)/MVVMC/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3JZ64GS9D;
+				DEVELOPMENT_TEAM = S97ZM4K3C8;
 				INFOPLIST_FILE = "$(SRCROOT)/MVVMC/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
